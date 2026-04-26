@@ -1,0 +1,8 @@
+CompileFlags:
+  Add: [-std=c++20]
+Diagnostics:
+  ClangTidy:
+    Remove:
+      - misc-use-internal-linkage
+      - readability-magic-numbers
+      - cppcoreguidelines-avoid-magic-numbers
